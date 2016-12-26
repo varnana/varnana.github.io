@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+	<title>CONTACT</title>
+	<h1>CONTACT</h1>
+	<h3>ADDRESS:POORNENDHU eravimangalam   P.O., thrissur kerala</h3>
+	<h3>PHONE NO:9447590336</h3>
+	<h3>MAIL-ID:<a href="https://www.google.com/gmail/">varnanavijay31197@gmail.com</a></h3> +<h3>My Google Maps Demo</h3>
+<input id="pac-input"  class="controls" 
+                type="text" placeholder="Search    Box"/>
+   <div id="google_map" style="width:500px; height: 500px;"></div>
+    <div id="map"></div>
+    <script>
+    
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBv27MOTxJt5JWINptkZ1r0drXReFoZ2w&callback=initMap">
+    </script>
+</head>
+<body>
+<p>For more details contact me at whatsapp</p>
+</body>
+</html>
